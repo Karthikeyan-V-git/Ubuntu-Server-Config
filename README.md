@@ -20,5 +20,19 @@ Note : I am using the Minimal Version for installation.
    ```bash
    sudo apt update && sudo apt upgrade
 2. Install basic packages
-    '''bash
-   hjh
+    ```bash
+    sudo apt install nano wget curl net-tools
+3. Set the Server Time Zone
+    ```bash
+    sudo timedatectl set-timezone <your_timezone>
+Replace <your_timezone> with your specific timezone, like America/New_York or Asia/Kolkata.
+
+4. Install ufw for Firewall Management (Optional but Recommended)
+    ```bash
+    sudo apt install ufw
+    sudo ufw allow OpenSSH
+    sudo ufw enable
+5.    
+
+
+    
