@@ -12,10 +12,10 @@ This repository documents the setup and configuration of an Ubuntu Server for ho
 - Wait for the completion and reboot the system alongwith removing the bootable device.
 - You will be directed to CLI of the server.
 
-###I am using the Minimal Version for installation
+Note : I am using the Minimal Version for installation.
 
 
 ## Installation Instructions
-1. Update the package list:
+1. Update and upgrade the package list:
    ```bash
-   sudo apt update
+   sudo 
