@@ -10,7 +10,7 @@ This repository documents the setup and configuration of an Ubuntu Server for ho
 - Choose "Entire Disk Option" - Storage allocation
 - Select Install "Open SSH" - for secure remote acesss.
 - Wait for the completion and reboot the system alongwith removing the bootable device.
-- You will be directed to CLI of the server.
+- You will be directed to CLI of the server login.
 
 Note : I am using the Minimal Version for installation.
 
@@ -18,4 +18,5 @@ Note : I am using the Minimal Version for installation.
 ## Installation Instructions
 1. Update and upgrade the package list:
    ```bash
-   sudo 
+   sudo apt update && sudo apt upgrade
+2. 
