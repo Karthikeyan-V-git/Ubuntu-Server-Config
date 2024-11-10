@@ -41,7 +41,8 @@ sudo systemctl enable ssh
 # Generating SSH Keys ( Client )
 To use public key authentication, generate an SSH key pair on the client computer:
 
-```ssh-keygen -t rsa -b 4096 -C "any_name_to_identity"
+```
+ssh-keygen -t rsa -b 4096 -C "any_name_to_identity"
 ```
 This command generates a new RSA key pair with a length of 4096 bits. Follow the prompts to save the keys to the default location **(~/.ssh/id_rsa)**.
 
