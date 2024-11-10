@@ -16,12 +16,12 @@ Ubuntu is a free and open-source Linux distribution based on Debian. Developed a
 Note : I am using the Minimal Version for installation.
 
 
-## Installation Instructions
+## Basic Package Installation
 1. Update and upgrade the package list:
    ```bash
    sudo apt update && sudo apt upgrade
 2. Install basic packages
     ```bash
-    sudo apt install nano wget curl net-tools
+    sudo apt install nano wget curl net-tools 
 
     
