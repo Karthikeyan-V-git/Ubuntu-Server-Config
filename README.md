@@ -24,7 +24,7 @@ Note : I am using the Minimal Version for installation.
     ```bash
     sudo apt install nano wget curl net-tools rysylog
     
-## Secure Shell (SSH) 
+## 1. Secure Shell (SSH) 
 > Is a cryptographic network protocol used for secure communication over an unsecured network. SSH is commonly used for remote login to a computer system, allowing users and system administrators to control and modify their servers and systems from afar.
 
  **Key features include:**
@@ -42,7 +42,7 @@ SSH is widely used in many applications, from system administration and network 
 [**Installation and Configuration :** ](ssh_installation.md)
 
 
-## File Transfer Protocol (FTP)  
+## 2. File Transfer Protocol (FTP)  
 is a standard network protocol used to transfer files between a client and a server over a network. It is one of the oldest protocols still in use and is widely employed for uploading and downloading files on the internet.
 
 **Key Features of FTP:**
@@ -51,7 +51,7 @@ is a standard network protocol used to transfer files between a client and a ser
 
 **Authentication:** Supports both anonymous and authenticated access, typically using username and password.
 
-**Directory Browsing: Provides capabilities to browse directories and manage files on the remote server.
+**Directory Browsing:** Provides capabilities to browse directories and manage files on the remote server.
 
 ### VSFTPD (Very Secure FTP Daemon)
 is an FTP server for Unix-like systems, including Linux. Known for its security, performance, and stability, VSFTPD is the preferred choice for many administrators to deploy FTP services.
