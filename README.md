@@ -28,7 +28,7 @@ Note : I am using the Minimal Version for installation.
     
 ## 1. Secure Shell (SSH) 
 > Is a cryptographic network protocol used for secure communication over an unsecured network. SSH is commonly used for remote login to a computer system, allowing users and system administrators to control and modify their servers and systems from afar.
-[](https://github.com/Karthikeyan-Appu/Ubuntu-Server-Config/assets/ssh.jpg)
+<img src="/assets/ssh.jpg" width="800"/>
 
  **Key features include:**
 
@@ -48,7 +48,7 @@ SSH is widely used in many applications, from system administration and network 
 ## 2. File Transfer Protocol (FTP)  
 is a standard network protocol used to transfer files between a client and a server over a network. It is one of the oldest protocols still in use and is widely employed for uploading and downloading files on the internet.
 
-[](https://github.com/Karthikeyan-Appu/Ubuntu-Server-Config/assets/FTP.jpg)
+<img src="/assets/FTP.jpg" width="800"/>
 
 **Key Features of FTP:**
 
@@ -77,7 +77,7 @@ VSFTPD is trusted for its security and robustness, making it a reliable option f
 ## 3. Fail2Ban
 
 Is an open-source tool designed to prevent brute-force attacks and unauthorized access to servers. It scans log files for suspicious behavior (like repeated failed login attempts) and temporarily bans offending IP addresses, typically by modifying firewall rules.
-[](https://github.com/Karthikeyan-Appu/Ubuntu-Server-Config/assets/fail2ban.jpg)
+<img src="/assets/fail2ban.jpg" width="800"/>
 **Key Features:**
 **Automated Banning:** Bans IPs that exhibit suspicious activity, like failed logins.
 
@@ -101,7 +101,7 @@ Fail2Ban’s ease of configuration and built-in defaults make it a versatile, ef
 ## 4. Uncomplicated Firewall (UFW)
 UFW, short for Uncomplicated Firewall, is a user-friendly front-end for managing iptables, which is a powerful and complex firewall utility built into Linux. UFW is designed to simplify the process of configuring and managing firewall rules, making it more accessible for users who may not be familiar with the intricacies of iptables.
 
-[](https://github.com/Karthikeyan-Appu/Ubuntu-Server-Config/assets/1_gc5l0IPPu3m7dhcJtqPbHg.png)
+<img src="/assets/1_gc5l0IPPu3m7dhcJtqPbHg.png" width="800"/>
 
 **Key Features:**
 
