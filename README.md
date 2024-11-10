@@ -74,19 +74,19 @@ VSFTPD is trusted for its security and robustness, making it a reliable option f
 Is an open-source tool designed to prevent brute-force attacks and unauthorized access to servers. It scans log files for suspicious behavior (like repeated failed login attempts) and temporarily bans offending IP addresses, typically by modifying firewall rules.
 
 **Key Features:**
-Automated Banning:** Bans IPs that exhibit suspicious activity, like failed logins.
+**Automated Banning:** Bans IPs that exhibit suspicious activity, like failed logins.
 
-Customizable Filters:** Users can define custom patterns for suspicious behavior.
+**Customizable Filters:** Users can define custom patterns for suspicious behavior.
 
-Multi-Service Protection:** Supports services like SSH, FTP, and web servers.
+**Multi-Service Protection:** Supports services like SSH, FTP, and web servers.
 
-Flexible Ban Durations:** Allows temporary or permanent bans.
+**Flexible Ban Durations:** Allows temporary or permanent bans.
 
-Email Alerts:** Notifies administrators when an IP is banned.
+**Email Alerts:** Notifies administrators when an IP is banned.
 
-Whitelist/Blacklist:** Permanently allows or blocks specific IPs.
+**Whitelist/Blacklist:** Permanently allows or blocks specific IPs.
 
-Firewall Compatibility:** Works with iptables, UFW, and more for flexibility across systems.
+**Firewall Compatibility:** Works with iptables, UFW, and more for flexibility across systems.
 
 Fail2Ban’s ease of configuration and built-in defaults make it a versatile, effective security tool for protecting server access.
 
