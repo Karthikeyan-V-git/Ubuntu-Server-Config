@@ -23,5 +23,4 @@ Note : I am using the Minimal Version for installation.
 2. Install basic packages
     ```bash
     sudo apt install nano wget curl net-tools 
-
     
