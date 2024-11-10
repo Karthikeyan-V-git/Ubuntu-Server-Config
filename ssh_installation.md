@@ -64,6 +64,21 @@ ssh -p 2222 your_username@your_server_ip
 #Replace your_username and your_server_ip with your actual username and server IP address.
 ```
 
+## Troubleshooting
+If you encounter issues, consider the following:
+
+**Check SSH Service Status:** Ensure the SSH service is running:
+```
+sudo systemctl status ssh
+```
+
+**Check Logs:** Review the logs for any relevant errors:
+```
+sudo tail -f /var/log/auth.log
+```
+
+# Conclusion
+By following this guide, you should have a secure SSH setup with key-based authentication. This enhances security by preventing brute-force attacks and enabling secure remote access to your server.
 
 
 
