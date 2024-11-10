@@ -6,9 +6,8 @@ This guide provides steps to configure an SSH server on Ubuntu. The SSH configur
 
 Open the SSH configuration file using a text editor like `nano`:
 
-    ```bash
+    ```
     sudo nano /etc/ssh/sshd_config
-    ````
 
 # Make the below changes for secuirty measures
 
@@ -32,5 +31,10 @@ PasswordAuthentication yes
 PermitEmptyPasswords no
 
 ```
+Save the file and restart the SSH service and make SSH start on booting
 
-
+```
+sudo systemctl daemon-reload
+sudo systemctl restart ssh
+sudo systemctl enable ssh
+```
