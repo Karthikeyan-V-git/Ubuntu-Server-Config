@@ -25,7 +25,7 @@ Note : I am using the Minimal Version for installation.
     sudo apt install nano wget curl net-tools 
     
 ## Secure Shell (SSH) 
-Is a cryptographic network protocol used for secure communication over an unsecured network. SSH is commonly used for remote login to a computer system, allowing users and system administrators to control and modify their servers and systems from afar.
+> Is a cryptographic network protocol used for secure communication over an unsecured network. SSH is commonly used for remote login to a computer system, allowing users and system administrators to control and modify their servers and systems from afar.
 
 **Key features include:**
 
@@ -38,3 +38,23 @@ Is a cryptographic network protocol used for secure communication over an unsecu
 **Secure File Transfer:** Protocols such as SCP (Secure Copy) and SFTP (SSH File Transfer Protocol) enable secure file transfer.
 
 SSH is widely used in many applications, from system administration and network management to secure file transfers and more. Its ability to provide a secure communication channel makes it a fundamental tool in the world of IT.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
