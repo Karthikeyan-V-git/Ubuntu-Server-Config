@@ -77,7 +77,7 @@ VSFTPD is trusted for its security and robustness, making it a reliable option f
 ## 3. Fail2Ban
 
 Is an open-source tool designed to prevent brute-force attacks and unauthorized access to servers. It scans log files for suspicious behavior (like repeated failed login attempts) and temporarily bans offending IP addresses, typically by modifying firewall rules.
-<img src="/assets/fail2ban.jpg" width="800"/>
+<img src="/assets/fail2ban.jpg" width="500"/>
 **Key Features:**
 **Automated Banning:** Bans IPs that exhibit suspicious activity, like failed logins.
 
@@ -101,7 +101,7 @@ Fail2Ban’s ease of configuration and built-in defaults make it a versatile, ef
 ## 4. Uncomplicated Firewall (UFW)
 UFW, short for Uncomplicated Firewall, is a user-friendly front-end for managing iptables, which is a powerful and complex firewall utility built into Linux. UFW is designed to simplify the process of configuring and managing firewall rules, making it more accessible for users who may not be familiar with the intricacies of iptables.
 
-<img src="/assets/1_gc5l0IPPu3m7dhcJtqPbHg.png" width="800"/>
+<img src="/assets/1_gc5l0IPPu3m7dhcJtqPbHg.png" width="500"/>
 
 **Key Features:**
 
