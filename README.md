@@ -39,7 +39,7 @@ Note : I am using the Minimal Version for installation.
 
 SSH is widely used in many applications, from system administration and network management to secure file transfers and more. Its ability to provide a secure communication channel makes it a fundamental tool in the world of IT.
 
-[**Installation and Configuration :** ](ssh_installation.md)
+[**Installation and Configuration ** ](ssh_installation.md)
 
 
 ## 2. File Transfer Protocol (FTP)  
@@ -69,11 +69,28 @@ VSFTPD is trusted for its security and robustness, making it a reliable option f
 [Installation and Configuration](ftp_installation.md)
 
 
+## 3. Fail2Ban
 
+Is an open-source tool designed to prevent brute-force attacks and unauthorized access to servers. It scans log files for suspicious behavior (like repeated failed login attempts) and temporarily bans offending IP addresses, typically by modifying firewall rules.
 
+**Key Features:**
+Automated Banning:** Bans IPs that exhibit suspicious activity, like failed logins.
 
+Customizable Filters:** Users can define custom patterns for suspicious behavior.
 
+Multi-Service Protection:** Supports services like SSH, FTP, and web servers.
 
+Flexible Ban Durations:** Allows temporary or permanent bans.
+
+Email Alerts:** Notifies administrators when an IP is banned.
+
+Whitelist/Blacklist:** Permanently allows or blocks specific IPs.
+
+Firewall Compatibility:** Works with iptables, UFW, and more for flexibility across systems.
+
+Fail2Ban’s ease of configuration and built-in defaults make it a versatile, effective security tool for protecting server access.
+
+[Installation And Configuration](fail2ban_installation.md)
 
 
 
