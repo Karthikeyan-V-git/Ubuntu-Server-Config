@@ -1,6 +1,7 @@
 # Ubuntu Server Configuration 
 This repository documents the setup and configuration of an Ubuntu Server for hosting web applications. The project includes detailed instructions and best practices to create a secure and efficient server environment.
 
+Ubuntu is a free and open-source Linux distribution based on Debian. Developed and maintained by Canonical Ltd., Ubuntu is designed to be user-friendly, stable, and secure, making it a popular choice for both newcomers and experienced users of Linux. Known for its ease of use, Ubuntu provides a comprehensive operating system suitable for desktops, servers, and even cloud environments.
 ## Prerequisites
 - Ubuntu Server 20.04 or later
     https://ubuntu.com/download/server#release-notes-lts
@@ -22,17 +23,5 @@ Note : I am using the Minimal Version for installation.
 2. Install basic packages
     ```bash
     sudo apt install nano wget curl net-tools
-3. Set the Server Time Zone
-    ```bash
-    sudo timedatectl set-timezone <your_timezone>
-Replace <your_timezone> with your specific timezone, like America/New_York or Asia/Kolkata.
-
-4. Install ufw for Firewall Management (Optional but Recommended)
-    ```bash
-    sudo apt install ufw
-    sudo ufw allow OpenSSH
-    sudo ufw enable
-5.    
-
 
     
