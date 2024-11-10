@@ -98,9 +98,13 @@ sudo systemctl enable vsftpd
 You can now use an FTP client like FileZilla or lftp to connect to your server. Here are the connection details:
 
 **Host:** [Your Server IP Address]
+
 **Username:** ftpuser
+
 **Password:** [Password for ftpuser]
+
 **Port: 21** (Standard FTP port)
+
 Make sure to select the SSL/TLS option for secure connection during the setup in your FTP client.
 
 
