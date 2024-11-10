@@ -93,6 +93,25 @@ Fail2Ban’s ease of configuration and built-in defaults make it a versatile, ef
 [Installation And Configuration](fail2ban_installation.md)
 
 
+## 4. Uncomplicated Firewall (UFW)
+UFW, short for Uncomplicated Firewall, is a user-friendly front-end for managing iptables, which is a powerful and complex firewall utility built into Linux. UFW is designed to simplify the process of configuring and managing firewall rules, making it more accessible for users who may not be familiar with the intricacies of iptables.
+
+**Key Features:**
+
+**Ease of Use:** UFW provides a simple command-line interface with straightforward commands to enable, disable, and configure firewall rules.
+
+**Default Deny Policy:** By default, UFW is configured with a "deny all" policy for incoming connections, providing a secure baseline from which to build.
+
+**Pre-configured Profiles:** Includes pre-configured application profiles for common services like SSH, HTTP, and HTTPS, making it easy to allow or deny traffic for these services.
+
+**IPv4 and IPv6 Support:** Fully supports both IPv4 and IPv6, ensuring that it can be used in modern network environments.
+
+**Logging:** Provides logging capabilities to monitor and review traffic that is being blocked or allowed by the firewall rules.
+
+[Installation and Configuration](ufw_installation.md)
+
+
+## 5, SNORT
 
 
 
