@@ -50,6 +50,7 @@ is a standard network protocol used to transfer files between a client and a ser
 
 <img src="/assets/FTP.jpg" width="800"/>
 
+
 **Key Features of FTP:**
 
 **File Transfer:** Allows for the transfer of files in both directions—uploading and downloading.
