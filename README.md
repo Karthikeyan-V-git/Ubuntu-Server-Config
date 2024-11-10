@@ -22,7 +22,7 @@ Note : I am using the Minimal Version for installation.
    sudo apt update && sudo apt upgrade
 2. Install basic packages
     ```bash
-    sudo apt install nano wget curl net-tools 
+    sudo apt install nano wget curl net-tools rysylog
     
 ## Secure Shell (SSH) 
 > Is a cryptographic network protocol used for secure communication over an unsecured network. SSH is commonly used for remote login to a computer system, allowing users and system administrators to control and modify their servers and systems from afar.
