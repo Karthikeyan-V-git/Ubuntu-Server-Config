@@ -39,7 +39,7 @@ Note : I am using the Minimal Version for installation.
 
 SSH is widely used in many applications, from system administration and network management to secure file transfers and more. Its ability to provide a secure communication channel makes it a fundamental tool in the world of IT.
 
-[**Installation and Configuration ** ](ssh_installation.md)
+[**Installation and Configuration**](ssh_installation.md)
 
 
 ## 2. File Transfer Protocol (FTP)  
