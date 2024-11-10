@@ -1,4 +1,4 @@
-![logo](/assets/ubuntu.png)
+<img src="/assets/ubuntu.png" width="400"/>
 # Ubuntu Server Configuration 
 This repository documents the setup and configuration of an Ubuntu Server for hosting web applications. The project includes detailed instructions and best practices to create a secure and efficient server environment.
 
