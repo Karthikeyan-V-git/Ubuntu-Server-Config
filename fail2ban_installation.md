@@ -67,4 +67,4 @@ Unban an IP (Optional)
 sudo fail2ban-client unban IP_ADDRESS
 #Replace with an IP address
 ```
-##Fail2ban is a versatile tool that can be configured to protect not only SSH and FTP but also other services vulnerable to brute-force attacks, such as Apache, Nginx, and Postfix. By checking the jail.conf or jail.local file, you can find preconfigured jails for a variety of services supported by Fail2ban. Simply enable the relevant jail and customize its settings to add an additional layer of security to those services as well.
+## Fail2ban is a versatile tool that can be configured to protect not only SSH and FTP but also other services vulnerable to brute-force attacks, such as Apache, Nginx, and Postfix. By checking the jail.conf or jail.local file, you can find preconfigured jails for a variety of services supported by Fail2ban. Simply enable the relevant jail and customize its settings to add an additional layer of security to those services as well.
