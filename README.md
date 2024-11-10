@@ -27,22 +27,46 @@ Note : I am using the Minimal Version for installation.
 ## Secure Shell (SSH) 
 > Is a cryptographic network protocol used for secure communication over an unsecured network. SSH is commonly used for remote login to a computer system, allowing users and system administrators to control and modify their servers and systems from afar.
 
-> **Key features include:**
+ **Key features include:**
 
-> **Encryption:** SSH uses strong encryption techniques to ensure that the data transmitted between the client and server is secure.
+ **Encryption:** SSH uses strong encryption techniques to ensure that the data transmitted between the client and server is secure.
 
-> **Authentication:** Supports various authentication methods including passwords and public key authentication.
+ **Authentication:** Supports various authentication methods including passwords and public key authentication.
 
-> **Port Forwarding:** Allows secure tunneling of other network services over SSH.
+ **Port Forwarding:** Allows secure tunneling of other network services over SSH.
 
-> **Secure File Transfer:** Protocols such as SCP (Secure Copy) and SFTP (SSH File Transfer Protocol) enable secure file transfer.
+ **Secure File Transfer:** Protocols such as SCP (Secure Copy) and SFTP (SSH File Transfer Protocol) enable secure file transfer.
 
 SSH is widely used in many applications, from system administration and network management to secure file transfers and more. Its ability to provide a secure communication channel makes it a fundamental tool in the world of IT.
 
+[**Installation and Configuration :** ](ssh_installation.md)
 
 
+## File Transfer Protocol (FTP)  
+is a standard network protocol used to transfer files between a client and a server over a network. It is one of the oldest protocols still in use and is widely employed for uploading and downloading files on the internet.
 
+**Key Features of FTP:**
 
+**File Transfer:** Allows for the transfer of files in both directions—uploading and downloading.
+
+**Authentication:** Supports both anonymous and authenticated access, typically using username and password.
+
+**Directory Browsing: Provides capabilities to browse directories and manage files on the remote server.
+
+### VSFTPD (Very Secure FTP Daemon)
+is an FTP server for Unix-like systems, including Linux. Known for its security, performance, and stability, VSFTPD is the preferred choice for many administrators to deploy FTP services.
+
+**Key Features of VSFTPD:**
+
+**Security:** Implements a variety of security measures, including chroot jails, SSL/TLS encryption, and more to ensure secure file transfers.
+
+**Performance:** Designed to handle numerous connections efficiently, providing high performance and stability.
+
+**Configurability:** Offers extensive configuration options to tailor the server to specific needs and requirements.
+
+VSFTPD is trusted for its security and robustness, making it a reliable option for providing FTP services in both personal and professional settings.
+
+[Installation and Configuration](ftp_installation.md)
 
 
 
