@@ -8,23 +8,29 @@ Open the SSH configuration file using a text editor like `nano`:
 
     ```bash
     sudo nano /etc/ssh/sshd_config
-    
+    ````
 
+# Make the below changes for secuirty measures
 
-# Change the default SSH port from 22 to 2222 for security through obscurity
+```
+#Change the default port
 Port 2222
 
-> #Disable root login for security purposes
-> PermitRootLogin no
+#Disable root login for security purposes
+PermitRootLogin no
 
-> #Limit the number of authentication attempts
-> MaxAuthTries 3
+#Limit the number of authentication attempts
+MaxAuthTries 3
 
-> #Enable public key authentication
+#Enable public key authentication
 PubkeyAuthentication yes
 
-> #Allow password-based authentication
-> PasswordAuthentication yes
+#Allow password-based authentication
+PasswordAuthentication yes
 
-> #Disallow empty passwords
-> PermitEmptyPasswords no
+#Disallow empty passwords
+PermitEmptyPasswords no
+
+```
+
+
