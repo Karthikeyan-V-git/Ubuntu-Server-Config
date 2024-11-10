@@ -6,7 +6,6 @@ This guide provides steps to configure an SSH server on Ubuntu. The SSH configur
 
 Open the SSH configuration file using a text editor like `nano`:
 
-    ```
     sudo nano /etc/ssh/sshd_config
 
 # Make the below changes for secuirty measures
