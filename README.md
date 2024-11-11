@@ -77,6 +77,7 @@ VSFTPD is trusted for its security and robustness, making it a reliable option f
 ## 3. Fail2Ban
 
 Is an open-source tool designed to prevent brute-force attacks and unauthorized access to servers. It scans log files for suspicious behavior (like repeated failed login attempts) and temporarily bans offending IP addresses, typically by modifying firewall rules.
+
 <img src="/assets/fail2ban.jpg" width="400"/>
 
 **Key Features:**
